@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body{
+        }
+        .navbar {
+
+            background-color: rgb(0, 0, 0);
+            border-radius: 44px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            /* to show background color which is not shoiwing due to float */
+            list-style: none;
+            color: antiquewhite;
+
+
+        }
+
+        .navbar li {
+            float: left;
+            padding: 12px 10px;
+
+
+
+
+        }
+
+        .navbar li a {
+            color: antiquewhite;
+            text-decoration: none;
+            margin: 13px 20px;
+
+
+
+        }
+       .search{
+        padding: 12px 75px;
+        float: right;
+        color: antiquewhite;
+        border-radius: 20px;
+
+       }
+       .navbar input{
+
+        border: 2px solid black;
+        border-radius: 6px ;
+
+       }
+
+       .navbar li a:hover{
+        color: rgb(255, 0, 221);
+        cursor: pointer;
+
+       }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            
+            <ul>
+                <img src="https://pngtree.com/freebackground/website-modern-minimalist-color-poster-background_203639.html" alt="loading.">
+                <li><a href="http://">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search here">
+                    <!-- placehorder is the item you want to show in the search box -->
+
+
+
+                </div>
+            </ul>
+
+        </nav>
+
+    </header>
+</body>
+
+</html>
